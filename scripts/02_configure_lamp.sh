@@ -5,7 +5,8 @@
 
 set -xeu
 
-chown -R www-data:www-data /var/www/html chmod -R 755 /var/www/html
+chown -R www-data:www-data /var/www/html 
+chmod -R 755 /var/www/html
 
 cp -vf /files/info.php /var/www/html/info.php
 
